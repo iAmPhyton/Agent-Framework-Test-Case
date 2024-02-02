@@ -1,6 +1,6 @@
 Agent Framework Test Case
 
-This project demonstrates a simple agent workflow for generating questions and answers on a specific topic using the CrewAI agent framework. The workflow involves three agents: Researcher, Writer, and Examiner.
+This project showcases an intelligent agent workflow designed to generate questions and answers on a specific topic. The system incorporates three key agents, each with a distinct role.
 
 Agents
 
