@@ -1,6 +1,10 @@
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from transformers import pipeline
+import transformers
+
+if not transformers.file_utils.is_offline_mode() and not transformers.file_utils.is_datasets_available():
+    transformers.file_utils.get_from_cache("facebook/bart-large-cnn")
 
 nltk.download('punkt')
 
